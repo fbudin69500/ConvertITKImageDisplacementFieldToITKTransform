@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>Transform</category>
+  <title>ConvertDisplacementFieldToITKTransform</title>
+  <description>
+   This module transforms a displacement field saved as an ITK image into an ITK transform file.
+  </description>
+  <version>1.0.0</version>
+  <documentation-url></documentation-url>
+  <license></license>
+  <contributor>Francois Budin</contributor>
+<acknowledgements>
+</acknowledgements>
+  <parameters>
+    <label>Input/Output</label>
+    <description>Input/output parameters</description>
+    <image>
+      <name>inputTransform</name>
+      <label>Input Transform</label>
+      <channel>input</channel>
+      <index>0</index>
+      <description>Input Transform as ITK Image</description>
+    </image>
+    <transform>
+      <name>outputTransform</name>
+      <label>Output Transform</label>
+      <channel>output</channel>
+      <index>1</index>
+      <description>Output Transform as ITK Transform</description>
+    </transform>
+  </parameters>
+</executable>
+
